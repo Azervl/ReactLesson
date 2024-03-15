@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form{
+        border: 1px solid black;
+        width: 450px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@import "./components/button.scss";
+@import "./components/input.scss";
+@import "./components/header.scss";
+@import "./components/navbar.scss"
